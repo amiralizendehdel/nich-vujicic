@@ -1,0 +1,422 @@
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+::selection{
+    background-color: rgb(158, 78, 78);
+    color: white;
+}
+
+#top-header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    position: fixed;
+    z-index: 1000;
+}
+
+#top1{
+    color: white;
+    margin: 0px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 150px;
+}
+
+#top1:hover{
+    color: red;
+}
+
+#top2{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: -9px;
+    right: 440px;
+    padding: 10px;
+}
+
+#top2:hover{
+    color: red;
+    border: 1px solid #e50404;
+}
+
+#top3{
+    width: 230px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    right: 180px;
+    border: 1px solid #e50404;
+}
+
+#top3:hover{
+    background-color: rgba( 255, 00, 00, 0.6 );
+}
+
+#top3 h2{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+#text-header{
+    width: 100%;
+    height: 750px;
+    background-image: url("image/nick-vujicic-hero-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#text-header h1{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    font-size: 4em;
+    position: absolute;
+    top: 60px;
+    right: 470px;
+}
+
+
+#text-header h2{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    position: absolute;
+    top: 500px;
+    right: 450px;
+}
+
+#text-header p{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 560px;
+    right: 510px;
+}
+
+#text-header .input{
+    position: absolute;
+    top: 640px;
+    right: 415px;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    padding-left: 20px;
+    background-color: #eee;
+}
+
+.ho{
+    right: 850px !important;
+}
+
+#salam{
+    width: 180px;
+    height: 45px;
+    background-color: red;
+    border: 1px solid gray;
+    position: absolute;
+    top: 640px;
+    right: 215px;
+    border-radius: 3px;
+}
+
+#salam:hover{
+    background-color: rgba( 255, 00, 00, 0.6 );
+}
+
+#zn{
+    text-align: center;
+    line-height: 15px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#content{
+    width: 100%;
+    height: 1000px;
+    background-image: url("image/NBF_A82I2332_Photo_PasiSalminen_com.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    margin: auto;
+    position: relative;
+}
+
+#content2{
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+#content2 #image1{
+    width: 550px;
+    position: absolute;
+    top: 120px;
+    right: 200px;
+}
+
+#content2 #hi-nick h1{
+    color: red;
+    text-align: center;
+}
+
+#content2 #hi-nick h2,p{
+    text-align: center;
+}
+
+#content2 p{
+    color: gray;
+    font-family: sans-serif;
+}
+
+#content2 #hi-nick h2{
+    font-family: sans-serif;
+}
+
+#hi-nick{
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#az{
+    font-weight: bold;
+}
+
+#hy{
+    width: 180px;
+    height: 45px;
+    background-color: red;
+    border: 1px solid gray;
+    position: absolute;
+    top: 480px;
+    left: 350px;
+    border-radius: 3px;
+}
+
+#hy:hover{
+    background-color: rgba( 255, 00, 00, 0.6 );
+}
+
+#ah{
+    text-align: center;
+    line-height: 15px;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+#content3{
+    width: 100%;
+    height: 550px;
+    background-image: url("image/nick-vujicic-hero-8.jpg");
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+#content4{
+    width: 100%;
+    height: 700px;
+    background-image: url("image/nick-vujicic-podcast-hero.jpg");  
+    background-size: cover;
+    /* background-attachment: fixed; */
+    position: relative;
+}
+
+#content4 h2{
+    color: white;
+    font-family: serif;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    position: absolute;
+    top: 320px;
+    right: 470px;
+}
+
+#his{
+    width: 800px;
+    height: auto;
+    position: absolute;
+    top: 400px;
+    right: 360px;
+}
+
+#content4 p{
+    color: white;
+    text-align: center;
+}
+
+#content4 #img1{
+    width: 200px;
+    position: absolute;
+    top: 520px;
+    right: 320px;
+}
+
+#content4 #img2{
+    width: 200px;
+    position: absolute;
+    top: 520px;
+    right: 550px;
+}
+
+#content4 #img3{
+    width: 200px;
+    position: absolute;
+    top: 520px;
+    right: 780px;
+}
+
+#content4 #img4{
+    width: 200px;
+    position: absolute;
+    top: 520px;
+    right: 1010px;
+}
+
+#content5{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+#content5 #image2{
+    width: 550px;
+    position: absolute;
+    top: 60px;
+    right: 200px;
+}
+
+#content5 #hello-nick h1{
+    color: brown;
+    text-align: center;
+    font-size: 45px;
+}
+
+#content5 #hello-nick h2,p{
+    text-align: center;
+}
+
+#content5 h2{
+    font-size: 20px;
+}
+
+#content5 p{
+    color: gray;
+    font-family: sans-serif;
+}
+
+#content5 #hello-nick h2{
+    font-family: sans-serif;
+}
+
+#hello-nick{
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#no{
+    width: 220px;
+    height: 40px;
+    background-color: brown;
+    border: 1px solid gray;
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    border-radius: 3px;
+}
+
+#no:hover{
+    background-color: rgba(165, 42, 42 , 0.6);
+}
+
+#so{
+    text-align: center;
+    line-height: 15px;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+#content6{
+    width: 100%;
+    height: 800px;
+    background-image: url("image/nick-vujicic-hero-6.jpg");  
+    background-size: cover;
+    /* background-attachment: fixed; */
+    position: relative;
+}
+
+#image3{
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+
+#book{
+    width: 100%;
+    height: 600px;
+    background-color: pink;
+}
+
+#footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgba( 0, 0, 0, 0.898 );
+}
+
+#text{
+    width: 600px;
+    height: auto;
+    border: 1px solid rgba( 61, 161, 250, 0.579 );
+    position: absolute;
+    top: 90px;
+    right: 100px;
+}
+
+.hi{
+    text-align: center;
+    color: white;
+    padding: 0 15px;
+}
+
+#amirali{
+    width: 450px;
+    height: 55px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: red;
+    border: 1px solid gray;
+}
+
+#nick{
+    text-align: center;
+    line-height: 15px;
+    color: white;
+}
+
+#amirali:hover{
+    background-color: rgba( 255, 00, 00, 0.6 );
+}
+
